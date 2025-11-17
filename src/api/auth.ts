@@ -11,7 +11,7 @@ function getApiBaseUrl(): string {
   if (apiUrl === "localhost:3000") {
     return "";
   }
-
+  // ㅅ
   // 배포 환경 - VITE_API_URL 값을 그대로 사용
   // URL이 http:// 또는 https://로 시작하지 않으면 https:// 추가
   if (!apiUrl.startsWith("http://") && !apiUrl.startsWith("https://")) {
